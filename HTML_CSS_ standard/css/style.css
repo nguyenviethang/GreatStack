@@ -1,0 +1,43 @@
+/* setting basic css */
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    /* hack css for browser */
+    /* chrome - safari */
+    -webkit-box-sizing: border-box;
+    /* firefox */
+    -moz-box-sizing: border-box;
+    /* Microsoft CSS */
+    -ms-box-sizing: border-box;
+    /* Opera */
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    /* 1em=1rem=100%=16px => 62.5%=10px=1em=1rem */
+  }
+  body {
+    font-family: '', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+  }
+  /* dinh nghia cac bien css dung chung */
+/* :root {
+    --primary-color: #64c29e;
+    --heading-color: #4d4959;
+    --text-color: #848789;
+    --bg-light: #f7f7f7;
+    --bg-white: #ffffff;
+    --bg-dark: #282f35;
+} */
+
+/* vd cach su dung background-color: var(--bg-light);
+cach nay dungfcho cac thuoc tinh dung chung mot mau sac */
+/* end setting basic css */
+
+.wrapper {
+    max-width: 160rem;
+    margin: 0 auto;
+}
